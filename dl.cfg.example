@@ -1,0 +1,5 @@
+# Copy to dl.cfg and fill in. Only needed when reading/writing S3;
+# local runs against data/ work without this file.
+[AWS]
+KEY=YOUR_AWS_ACCESS_KEY
+SECRET=YOUR_AWS_SECRET_KEY

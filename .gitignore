@@ -1,0 +1,15 @@
+# local spark / python
+.venv/
+__pycache__/
+*.pyc
+spark-warehouse/
+metastore_db/
+derby.log
+
+# ETL output (regenerate with etl.py)
+output/
+
+# credentials - never commit
+dl.cfg
+
+.DS_Store
